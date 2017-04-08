@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="name">
+			<span>Bank</span> Support Portal
+		</div>
+		<form>
+			<div class="rows">
+				<input class="email" type='email' name="email" placeholder="E-mail" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
+				<input class="password" type="password" name="password" placeholder="Password" required pattern="^[\w_]{6,18}$">
+			</div>	
+			<button type="submit">Login</button>
+			<div class="text">
+				Forgot your password?
+				<a href="#">Reset it here.</a>
+			</div>
+		</form>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

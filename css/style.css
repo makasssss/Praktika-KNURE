@@ -1,0 +1,176 @@
+@font-face {
+	font-family: Helvetica Neue Light;
+	src: url(../fonts/HelveticaNeueLight.otf);
+}
+
+@font-face {
+	font-family: Helvetica Neue Heavy;
+	src: url(../fonts/HelveticaNeueHeavy.otf);
+}
+
+@font-face {
+	font-family: Helvetica Neue Bold;
+	src: url(../fonts/HelveticaNeueBold.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #ffffff;
+}
+
+.container {
+	margin: 90px auto;
+}
+
+.name {
+	text-align: center;
+	font-family: 'Helvetica Neue Light';
+	color: #b3b3b3;
+	font-size: 20px;
+}
+
+.name span {
+	color: #2fa2c3;
+	font-family: 'Helvetica Neue Bold';
+	font-size: 40px;
+}
+
+form {
+	width: 440px;
+	height: 311px;
+	margin: 34px auto;
+	border: 1px solid rgba(153, 153, 153, .33);
+	border-radius: 5.51px;
+	background-color: #ffffff;
+}
+
+.rows {
+	text-align: center;
+}
+
+input {
+	padding-left: 30px;
+	width: 265px;
+	height: 40px;
+	margin-top: 34px; 
+	background-color: #ffffff;
+	border: 1px solid rgba(153, 153, 153, .28);
+	border-radius: 5px;
+	font-family: 'Helvetica Neue Light';
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: -0.14px;
+}
+
+input:focus {
+	outline: 0;
+}
+
+input:valid:focus {
+	border-color: green;
+}
+
+input:first-child {
+	background: url(../images/mail.png) no-repeat -145px;
+}
+
+input:last-child {
+	background: url(../images/pas.png) no-repeat -145px;
+}
+
+button {
+	margin-top: 40px;
+	font-family: 'Helvetica Neue Light';
+	font-size: 18px;
+	color: #ffffff;
+	letter-spacing: -0.18px;
+	background-color: #2fa2c3;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
+	height: 40px;
+	margin-left: 72px;
+	box-shadow: 2px 2px 0 #2d7f96;
+}
+
+.text {
+	margin: 20px 72px;
+	font-family: 'Helvetica Neue Light';
+	font-size: 12px;
+	color: #666666;
+	letter-spacing: -0.12px;
+}
+
+.text a {
+	text-decoration: none;
+	color: #43a8c5;
+}
+
+.tick {
+	position: absolute;
+	margin-left: 380px;
+	margin-top: -245px;
+	width: 20px;
+}
+
+.tick img {
+	width: 100%;
+}
+
+.tick2 {
+	position: absolute;
+	margin-left: 380px;
+	margin-top: -165px;
+	width: 20px;
+}
+
+.tick2 img {
+	width: 100%;
+}
+
+.close {
+	position: absolute;
+	margin-left: 380px;
+	margin-top: -245px;
+	width: 20px;
+}
+
+.close img {
+	width: 100%;
+}
+
+.close2 {
+	position: absolute;
+	margin-left: 380px;
+	margin-top: -165px;
+	width: 20px;
+}
+
+.close2 img {
+	width: 100%;
+}
+
+.error {
+	position: absolute;
+	margin-top: -205px;
+	margin-left: 72px;
+	color: red;
+	font-family: 'Helvetica Neue Light';
+	font-size: 12px;
+	letter-spacing: -0.12px;
+}
+
+.error2 {
+	position: absolute;
+	margin-top: -130px;
+	margin-left: 72px;
+	color: red;
+	font-family: 'Helvetica Neue Light';
+	font-size: 12px;
+	letter-spacing: -0.12px;
+}
